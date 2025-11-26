@@ -1,0 +1,51 @@
+body {
+    background-size: cover;
+    background: linear-gradient(to right, #43008a, #5500af);
+    text-align: center;
+}
+
+body>h1 {
+    color: white;
+}
+
+h1{ 
+    font-family: "Pacifico", cursive;
+
+}
+
+.selecao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    background-color: azure;
+
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+img {
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
